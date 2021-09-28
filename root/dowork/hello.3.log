@@ -1,0 +1,120 @@
+execve("/usr/local/douzone/java/bin/java", ["java", "HelloWorld"], 0x7fff3550a828 /* 21 vars */) = 0
+brk(NULL)                               = 0x7fe35035c000
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe34f4c4000
+readlink("/proc/self/exe", "/usr/local/douzone/jdk1.8/bin/ja"..., 4096) = 34
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/tls/x86_64", 0x7ffd0f760390) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/tls", 0x7ffd0f760390) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/x86_64", 0x7ffd0f760390) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli", {st_mode=S_IFDIR|0755, st_size=22, ...}) = 0
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/tls/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64/tls/x86_64", 0x7ffd0f760390) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/tls/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64/tls", 0x7ffd0f760390) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/x86_64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64/x86_64", 0x7ffd0f760390) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+stat("/usr/local/douzone/jdk1.8/bin/../lib/amd64", {st_mode=S_IFDIR|0755, st_size=33, ...}) = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=19578, ...}) = 0
+mmap(NULL, 19578, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe34f4bf000
+close(3)                                = 0
+open("/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\200m\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=142144, ...}) = 0
+mmap(NULL, 2208904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe34f088000
+mprotect(0x7fe34f09f000, 2093056, PROT_NONE) = 0
+mmap(0x7fe34f29e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fe34f29e000
+mmap(0x7fe34f2a0000, 13448, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe34f2a0000
+close(3)                                = 0
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/libjli.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 #\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=109416, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe34f4be000
+mmap(NULL, 2192272, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe34ee70000
+mprotect(0x7fe34ee87000, 2093056, PROT_NONE) = 0
+mmap(0x7fe34f086000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x16000) = 0x7fe34f086000
+close(3)                                = 0
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/libdl.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/lib64/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\16\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=19248, ...}) = 0
+mmap(NULL, 2109744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe34ec6c000
+mprotect(0x7fe34ec6e000, 2097152, PROT_NONE) = 0
+mmap(0x7fe34ee6e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fe34ee6e000
+close(3)                                = 0
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/jli/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/usr/local/douzone/jdk1.8/bin/../lib/amd64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+open("/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0`&\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=2156352, ...}) = 0
+mmap(NULL, 3985920, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe34e89e000
+mprotect(0x7fe34ea62000, 2093056, PROT_NONE) = 0
+mmap(0x7fe34ec61000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c3000) = 0x7fe34ec61000
+mmap(0x7fe34ec67000, 16896, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe34ec67000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe34f4bd000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe34f4bb000
+arch_prctl(ARCH_SET_FS, 0x7fe34f4bb740) = 0
+mprotect(0x7fe34ec61000, 16384, PROT_READ) = 0
+mprotect(0x7fe34ee6e000, 4096, PROT_READ) = 0
+mprotect(0x7fe34f29e000, 4096, PROT_READ) = 0
+mprotect(0x7fe34f086000, 4096, PROT_READ) = 0
+mprotect(0x7fe34f6c8000, 4096, PROT_READ) = 0
+mprotect(0x7fe34f4c5000, 4096, PROT_READ) = 0
+munmap(0x7fe34f4bf000, 19578)           = 0
+set_tid_address(0x7fe34f4bba10)         = 2712
+set_robust_list(0x7fe34f4bba20, 24)     = 0
+rt_sigaction(SIGRTMIN, {sa_handler=0x7fe34f08e860, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fe34f097630}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {sa_handler=0x7fe34f08e8f0, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fe34f097630}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x7fe35035c000
+brk(0x7fe35037d000)                     = 0x7fe35037d000
+brk(NULL)                               = 0x7fe35037d000
+readlink("/proc/self/exe", "/usr/local/douzone/jdk1.8/bin/ja"..., 4096) = 34
+access("/usr/local/douzone/jdk1.8/lib/amd64/libjava.so", F_OK) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+access("/usr/local/douzone/jdk1.8/jre/lib/amd64/libjava.so", F_OK) = 0
+open("/usr/local/douzone/jdk1.8/jre/lib/amd64/jvm.cfg", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=627, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fe34f4c3000
+read(3, "# Copyright (c) 2003, 2013, Orac"..., 4096) = 627
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+munmap(0x7fe34f4c3000, 4096)            = 0
+stat("/usr/local/douzone/jdk1.8/jre/lib/amd64/server/libjvm.so", {st_mode=S_IFREG|0755, st_size=17109464, ...}) = 0
+futex(0x7fe34ee6f0d0, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/local/douzone/jdk1.8/jre/lib/amd64/server/libjvm.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220\350\37\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=17109464, ...}) = 0
+mmap(NULL, 16739968, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe34d8a7000
+mprotect(0x7fe34e59c000, 2097152, PROT_NONE) = 0
+mmap(0x7fe34e79c000, 815104, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xcf5000) = 0x7fe34e79c000
+mmap(0x7fe34e863000, 241280, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fe34e863000
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=19578, ...}) = 0
+mmap(NULL, 19578, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fe34f4bf000
+close(3)                                = 0
+open("/lib64/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0PS\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1136944, ...}) = 0
+mmap(NULL, 3150136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fe34d5a5000
+mprotect(0x7fe34d6a6000, 2093056, PROT_NONE) = 0
+mmap(0x7fe34d8a5000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x100000) = 0x7fe34d8a5000
+close(3)                                = 0
+mprotect(0x7fe34d8a5000, 4096, PROT_READ) = 0
+stat("/etc/sysconfig/64bit_strstr_via_64bit_strstr_sse2_unaligned", 0x7ffd0f75d450) = -1 ENOENT (그런 파일이나 디렉터리가 없습니다)
+mprotect(0x7fe34e79c000, 614400, PROT_READ) = 0
+munmap(0x7fe34f4bf000, 19578)           = 0
+mmap(NULL, 1052672, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7fe34f3ba000
+mprotect(0x7fe34f3ba000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7fe34f4b9fb0, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7fe34f4ba9d0, tls=0x7fe34f4ba700, child_tidptr=0x7fe34f4ba9d0) = 2713
+futex(0x7fe34f4ba9d0, FUTEX_WAIT, 2713, NULL) = 0
+exit_group(0)                           = ?
++++ exited with 0 +++
