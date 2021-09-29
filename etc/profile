@@ -90,3 +90,6 @@ export PATH=/usr/local/douzone/git/bin:$PATH
 
 # maven
 export PATH=/usr/local/douzone/maven/bin:$PATH
+
+# mariadb
+export PATH=/usr/local/douzone/mariadb/bin:$PATH

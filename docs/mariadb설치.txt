@@ -56,7 +56,7 @@ cp -R /usr/local/douzone/mariadb/etc/my.cnf.d /etc
 # /usr/local/douzone/mariadb/bin/mysqld_safe &
 
 13. root 패스워드 설정
-# /usr/local/douzone/mariadb/bin/mysqladmin -u root password '
+# /usr/local/douzone/mariadb/bin/mysqladmin -u root password
 
 14. 데이터베이스 접속 테스트
 # /usr/local/douzone/mariadb/bin/mysql -u root -p
